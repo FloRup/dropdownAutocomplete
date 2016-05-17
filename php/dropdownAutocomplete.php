@@ -9,7 +9,7 @@ if(!isset($_GET["query"]))
 }
 
 
-$db = new PDO("mysql:host=127.0.0.1;dbname=dropdownautocomplete","dropdownautocomp","1234567890");
+$db = new PDO("mysql:host=***;dbname=****","****","****");
 
 $users = $db->prepare("
 	SELECT id, username
